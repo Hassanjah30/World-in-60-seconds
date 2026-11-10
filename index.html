@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The World in 60 Seconds</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <div class="sidebar">
+      <h1>The World in 60 Seconds</h1>
+      <p class="intro">Live news from around the world, pulled from the GDELT API. Updates every 60 seconds.</p>
+
+      <h2>Categories</h2>
+      <div id="category-buttons"></div>
+
+      <p id="status">Loading...</p>
+      <p id="countdown"></p>
+
+      <h2>Where the stories are from</h2>
+      <div id="countries"></div>
+
+      <p class="credit">News data from <a href="https://www.gdeltproject.org/">The GDELT Project</a></p>
+    </div>
+
+    <div class="main">
+      <h2 id="feed-title">News feed</h2>
+      <div id="feed"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
